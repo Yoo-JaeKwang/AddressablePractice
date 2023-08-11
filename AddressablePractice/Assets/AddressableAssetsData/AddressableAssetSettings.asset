@@ -34,11 +34,11 @@ MonoBehaviour:
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: fb2b6c9803fda4946b209dc9d01bba4f
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: 849edbfc56d1364418ef09d3a24f392b
   m_ContentStateBuildPath: 
-  m_BuildAddressablesWithPlayerBuild: 0
+  m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 5d164eef4b6d694469166e678e71ab90, type: 2}
