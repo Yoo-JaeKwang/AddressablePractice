@@ -17,12 +17,12 @@ MonoBehaviour:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
-  m_DisableCatalogUpdateOnStart: 0
+  m_DisableCatalogUpdateOnStart: 1
   m_IgnoreUnsupportedFilesInBuild: 0
-  m_UniqueBundleIds: 0
+  m_UniqueBundleIds: 1
   m_NonRecursiveBuilding: 1
   m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 500
@@ -43,6 +43,8 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 5d164eef4b6d694469166e678e71ab90, type: 2}
   - {fileID: 11400000, guid: 26054655801892c43bad8cd8e0e4ae1a, type: 2}
+  - {fileID: 11400000, guid: bb483a5b56c02f6408b986e98ac55430, type: 2}
+  - {fileID: 11400000, guid: 513e8daeb0b857c4390429623fc4d4d4, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -64,6 +66,20 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: 849edbfc56d1364418ef09d3a24f392b
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: 2c409e0cdbfb00e48913c4d5abda4641
+      m_ProfileName: Develop
+      m_Values:
+      - m_Id: dd4ffb918a04a524289c99b539bec5ee
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: fd04cfa10981e074dafd851e4d2f8fc3
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: cf8d0abb12f83e3448a90016826d1fc1
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: fb2b6c9803fda4946b209dc9d01bba4f
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 849edbfc56d1364418ef09d3a24f392b
+        m_Value: '{AddressableDownloader.DownloadURL}'
     m_ProfileEntryNames:
     - m_Id: dd4ffb918a04a524289c99b539bec5ee
       m_Name: BuildTarget
@@ -84,6 +100,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - MainAsset
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: eb33cb8380ca6c64fb3cd29723d32521, type: 2}
@@ -97,7 +114,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2a774a898a9ea324c9578b0071cf5f62, type: 2}
   - {fileID: 11400000, guid: bb7f0b2a116b475419c725b0ef85c874, type: 2}
   - {fileID: 11400000, guid: f0f75adf2982d8d488f6f7285f7706f0, type: 2}
-  m_ActiveProfileId: 2a2cbd4db481a0d4bb8fd9f43326d5bf
+  m_ActiveProfileId: 2c409e0cdbfb00e48913c4d5abda4641
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
